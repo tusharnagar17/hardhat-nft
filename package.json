@@ -1,0 +1,35 @@
+{
+  "name": "hardhat-nft",
+  "version": "1.0.0",
+  "description": "A project to learn how NFTs works in blockchain space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "hardhat compile",
+    "lint": "solhint 'contracts/*.sol'",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tusharnagar17/hardhat-nft.git"
+  },
+  "author": "Tushar Nagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tusharnagar17/hardhat-nft/issues"
+  },
+  "homepage": "https://github.com/tusharnagar17/hardhat-nft#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.20.1"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.4.5",
+    "hardhat-deploy": "^0.11.45",
+    "hardhat-gas-reporter": "^1.0.10",
+    "solhint": "^4.1.1",
+    "solidity-coverage": "^0.8.8"
+  }
+}
